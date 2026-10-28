@@ -1,0 +1,73 @@
+# Miscellaneous
+*.class
+*.log
+*.pyc
+*.swp
+.DS_Store
+.atom/
+.buildlog/
+.history
+.svn/
+migrate_working_dir/
+
+# IntelliJ related
+*.iml
+*.ipr
+*.iws
+.idea/
+
+# Visual Studio Code related
+.vscode/
+
+# Flutter/Dart/Pub related
+**/doc/api/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+/build/
+build/
+
+# Web related
+lib/generated_plugin_registrant.dart
+
+# Symbol processing related
+symbols/
+
+# Android specific
+android/.gradle/
+android/captures/
+android/local.properties
+android/GeneratedPluginRegistrant.java
+android/.cxx/
+android/app/build/
+
+# iOS & macOS specific
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/ServiceDefinitions.json
+macos/Flutter/ephemeral/
+
+# Desktop ephemerals
+windows/flutter/ephemeral/
+linux/flutter/ephemeral/
+
+# Security and local environment files
+.env
+.env*.local
+key.properties
+**/*.keystore
+**/*.jks
+*.pem
+*.key
+
+# Legacy backup
+.rn_backup/
